@@ -16,6 +16,11 @@ public class Rental {
       return _movie;
    }
 
+   public int getFrequentRenterPoints(){
+      // add frequent renter points
+      frequentRenterPoints ++;
+   }
+
    public double getCharge(){
     double thisAmount = 0;
     switch (getMovie().getPriceCode()) {
