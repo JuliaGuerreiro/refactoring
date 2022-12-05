@@ -22,8 +22,8 @@ public abstract class Price {
      }
 
     public int getFrequentRenterPoints(int daysRented) {
-        // add frequent renter points
-        frequentRenterPoints ++;
+        return 1;
      }
+
  }
 
